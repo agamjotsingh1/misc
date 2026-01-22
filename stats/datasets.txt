@@ -1,10 +1,10 @@
-1. frequency table, bar diagram, frequency polygon -> 
+1. frequency table, bar diagram, frequency polygon -> landslide
 2. pie chart -> video_game_sales
-3. histogram ->
-4. box plot ->  
+3. histogram -> real_estate
+4. box plot -> pollutant
 
 available:
 real_estate.csv (https://www.kaggle.com/datasets/toriqulstu/worlds-real-estate-data147k)
 pollutant.csv (https://www.data.gov.in/resource/real-time-air-quality-index-various-locations)
 video_game_sales.csv (https://www.kaggle.com/datasets/gregorut/videogamesales)
-
+landslide.csv (https://data.nasa.gov/dataset/global-landslide-catalog-export)
