@@ -1,4 +1,4 @@
-1. frequency table, bar diagram, frequency polygon -> landslide
+1. frequency table, bar diagram, frequency polygon -> landslide DONE
 2. pie chart -> video_game_sales
 3. histogram -> real_estate
 4. box plot -> pollutant
