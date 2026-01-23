@@ -42,6 +42,7 @@ plt.xticks(
 )
 
 plt.tight_layout()
+plt.savefig("plots/landslide_frequency_polygon.png")
 plt.savefig("plots/landslide_frequency_polygon.svg")
 plt.show()
 
@@ -64,6 +65,7 @@ plt.xticks(
 )
 
 plt.tight_layout()
+plt.savefig("plots/landslide_bar_diagram.png")
 plt.savefig("plots/landslide_bar_diagram.svg")
 plt.show()
 
@@ -85,5 +87,6 @@ plt.yticks(
 )
 
 plt.tight_layout()
+plt.savefig("plots/landslide_bar_diagram_vertical.png")
 plt.savefig("plots/landslide_bar_diagram_vertical.svg")
 plt.show()

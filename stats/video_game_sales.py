@@ -26,4 +26,5 @@ plt.pie(
 plt.title("Pie Chart of Platform for Popular Video games")
 plt.axis("equal")
 plt.savefig("plots/video_game_sales_pie_chart.png")
+plt.savefig("plots/video_game_sales_pie_chart.svg")
 plt.show()
