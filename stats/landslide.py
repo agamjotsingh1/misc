@@ -21,7 +21,6 @@ frequency = frequency.sort_index()
 frequency.index = frequency.index.strftime('%b %Y')
 
 # FREQUENCY TABLE
-
 frequency.to_csv('tables/landslide_frequency_table.csv') 
 
 # FREQUENCY POLYGON
@@ -51,7 +50,7 @@ plt.show()
 plt.figure(figsize=(16, 6))
 plt.bar(frequency.index, frequency.values)
 
-plt.xlabel("Year")
+plt.xlabel("Month")
 plt.ylabel("Number of Landslides")
 plt.title("Bar diagram of Landslides (2005 onwards)")
 
@@ -66,4 +65,25 @@ plt.xticks(
 
 plt.tight_layout()
 plt.savefig("plots/landslide_bar_diagram.png")
+plt.show()
+
+# BAR DIAGRAM (Vertical)
+
+plt.figure(figsize=(6, 16))
+plt.barh(frequency.index, frequency.values)
+
+plt.ylabel("Month")
+plt.xlabel("Number of Landslides")
+plt.title("Bar diagram of Landslides (2005 onwards)")
+
+# show label every 6 months
+step = 2
+plt.yticks(
+    range(0, len(frequency.index), step),
+    frequency.index[::step],
+    fontsize=8
+)
+
+plt.tight_layout()
+plt.savefig("plots/landslide_bar_diagram_vertical.svg")
 plt.show()
