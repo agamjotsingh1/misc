@@ -1,0 +1,30 @@
+{
+    "files.associations": {
+        "system_error": "c",
+        "random": "c",
+        "format": "c",
+        "fstream": "c",
+        "iostream": "c",
+        "istream": "c",
+        "limits": "c",
+        "new": "c",
+        "ratio": "c",
+        "stdexcept": "c",
+        "streambuf": "c",
+        "thread": "c",
+        "functional": "c",
+        "tuple": "c",
+        "*.inc": "c",
+        "bit": "c",
+        "bitset": "c",
+        "deque": "c",
+        "forward_list": "c",
+        "list": "c",
+        "map": "c",
+        "set": "c",
+        "string": "c",
+        "unordered_map": "c",
+        "unordered_set": "c",
+        "vector": "c"
+    }
+}
