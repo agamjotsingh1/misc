@@ -1,0 +1,28 @@
+# Vivado build directories and caches
+*.runs/
+*.cache/
+*.hw/
+*.sim/
+*.ip_user_files/
+*.gen/
+.Xil/
+
+# Log and Journal files
+*.jou
+*.log
+*.str
+*.pb
+
+# Checkpoints and Bitstreams
+*.dcp
+*.bit
+*.rcfi
+*.rnpi
+*.wdb
+*.hwdef
+*.hdf
+*.xsa
+
+# OS specific files
+.DS_Store
+Thumbs.db

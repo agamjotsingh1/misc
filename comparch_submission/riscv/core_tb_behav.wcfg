@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="core_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="core_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="6,742.743 ns"></ZoomStartTime>
+      <ZoomEndTime time="7,373.006 ns"></ZoomEndTime>
+      <Cursor1Time time="6,873.807 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="192"></NameColumnWidth>
+      <ValueColumnWidth column_width="153"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="170" />
+   <wvobject type="logic" fp_name="/core_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/is_program_done">
+      <obj_property name="ElementShortName">is_program_done</obj_property>
+      <obj_property name="ObjectShortName">is_program_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/compulsory_stall">
+      <obj_property name="ElementShortName">compulsory_stall</obj_property>
+      <obj_property name="ObjectShortName">compulsory_stall</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/if_stage_instance/branch_predictor_instance/id_branch_taken">
+      <obj_property name="ElementShortName">id_branch_taken</obj_property>
+      <obj_property name="ObjectShortName">id_branch_taken</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/if_stage_instance/branch_predictor_instance/next_unpredicted_pc">
+      <obj_property name="ElementShortName">next_unpredicted_pc[63:0]</obj_property>
+      <obj_property name="ObjectShortName">next_unpredicted_pc[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/if_stage_instance/branch_predictor_instance/next_predicted_pc">
+      <obj_property name="ElementShortName">next_predicted_pc[63:0]</obj_property>
+      <obj_property name="ObjectShortName">next_predicted_pc[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/if_stage_instance/branch_predictor_instance/branch_prediction_failed">
+      <obj_property name="ElementShortName">branch_prediction_failed</obj_property>
+      <obj_property name="ObjectShortName">branch_prediction_failed</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/if_stage_instance/branch_predictor_instance/is_branch_state">
+      <obj_property name="ElementShortName">is_branch_state</obj_property>
+      <obj_property name="ObjectShortName">is_branch_state</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/running">
+      <obj_property name="ElementShortName">running</obj_property>
+      <obj_property name="ObjectShortName">running</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/fpu_stall">
+      <obj_property name="ElementShortName">fpu_stall</obj_property>
+      <obj_property name="ObjectShortName">fpu_stall</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_stall_unit_instance/prev_active">
+      <obj_property name="ElementShortName">prev_active</obj_property>
+      <obj_property name="ObjectShortName">prev_active</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/if_stage_instance/branch_predictor_instance/id_branch_taken">
+      <obj_property name="ElementShortName">id_branch_taken</obj_property>
+      <obj_property name="ObjectShortName">id_branch_taken</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/if_stage_instance/branch_predictor_instance/next_unpredicted_pc">
+      <obj_property name="ElementShortName">next_unpredicted_pc[63:0]</obj_property>
+      <obj_property name="ObjectShortName">next_unpredicted_pc[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/if_stage_instance/branch_predictor_instance/next_predicted_pc">
+      <obj_property name="ElementShortName">next_predicted_pc[63:0]</obj_property>
+      <obj_property name="ObjectShortName">next_predicted_pc[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/if_stage_instance/branch_predictor_instance/branch_prediction_failed">
+      <obj_property name="ElementShortName">branch_prediction_failed</obj_property>
+      <obj_property name="ObjectShortName">branch_prediction_failed</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/if_stage_instance/branch_predictor_instance/is_branch_state">
+      <obj_property name="ElementShortName">is_branch_state</obj_property>
+      <obj_property name="ObjectShortName">is_branch_state</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/pc_stall">
+      <obj_property name="ElementShortName">pc_stall</obj_property>
+      <obj_property name="ObjectShortName">pc_stall</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/jump_stall">
+      <obj_property name="ElementShortName">jump_stall</obj_property>
+      <obj_property name="ObjectShortName">jump_stall</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/if_id_reg_instance/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/if_id_reg_instance/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/if_id_reg_instance/stall">
+      <obj_property name="ElementShortName">stall</obj_property>
+      <obj_property name="ObjectShortName">stall</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/if_id_reg_instance/pc">
+      <obj_property name="ElementShortName">pc[63:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/if_id_reg_instance/instr">
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/if_stage_instance/branch_predictor_instance/failed_pc">
+      <obj_property name="ElementShortName">failed_pc[63:0]</obj_property>
+      <obj_property name="ObjectShortName">failed_pc[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/if_pc">
+      <obj_property name="ElementShortName">if_pc[63:0]</obj_property>
+      <obj_property name="ObjectShortName">if_pc[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_pc">
+      <obj_property name="ElementShortName">id_pc[63:0]</obj_property>
+      <obj_property name="ObjectShortName">id_pc[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_pc">
+      <obj_property name="ElementShortName">ex_pc[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_pc[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/mem_pc">
+      <obj_property name="ElementShortName">mem_pc[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_pc[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/if_instr">
+      <obj_property name="ElementShortName">if_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">if_instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_instr">
+      <obj_property name="ElementShortName">id_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">id_instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_instr">
+      <obj_property name="ElementShortName">ex_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/mem_instr">
+      <obj_property name="ElementShortName">mem_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_forwarded_read_data2">
+      <obj_property name="ElementShortName">ex_forwarded_read_data2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_forwarded_read_data2[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/mem_stage_instance/data_mem_instance/addr">
+      <obj_property name="ElementShortName">addr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/mem_stage_instance/data_mem_control_instance/bit_width">
+      <obj_property name="ElementShortName">bit_width[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_width[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/mem_stage_instance/data_mem_instance/din">
+      <obj_property name="ElementShortName">din[63:0]</obj_property>
+      <obj_property name="ObjectShortName">din[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[2]">
+      <obj_property name="ElementShortName">[2][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_rs1">
+      <obj_property name="ElementShortName">ex_rs1[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_rs1[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_rs2">
+      <obj_property name="ElementShortName">ex_rs2[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_rs2[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_rd">
+      <obj_property name="ElementShortName">ex_rd[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_rd[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/mem_stage_instance/data_mem_instance/addr">
+      <obj_property name="ElementShortName">addr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/mem_stage_instance/data_mem_instance/din">
+      <obj_property name="ElementShortName">din[63:0]</obj_property>
+      <obj_property name="ObjectShortName">din[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/mem_stage_instance/data_mem_instance/dout">
+      <obj_property name="ElementShortName">dout[63:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/forward_A">
+      <obj_property name="ElementShortName">forward_A[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forward_A[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/forward_B">
+      <obj_property name="ElementShortName">forward_B[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forward_B[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_forwarded_read_data1">
+      <obj_property name="ElementShortName">ex_forwarded_read_data1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_forwarded_read_data1[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_forwarded_read_data2">
+      <obj_property name="ElementShortName">ex_forwarded_read_data2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_forwarded_read_data2[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_alu_fpu">
+      <obj_property name="ElementShortName">ex_alu_fpu</obj_property>
+      <obj_property name="ObjectShortName">ex_alu_fpu</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/in1">
+      <obj_property name="ElementShortName">in1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">in1[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/in2">
+      <obj_property name="ElementShortName">in2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">in2[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fpu_op">
+      <obj_property name="ElementShortName">fpu_op[5:0]</obj_property>
+      <obj_property name="ObjectShortName">fpu_op[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/out">
+      <obj_property name="ElementShortName">out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/in1">
+      <obj_property name="ElementShortName">in1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/in2">
+      <obj_property name="ElementShortName">in2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/out">
+      <obj_property name="ElementShortName">out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/M_A">
+      <obj_property name="ElementShortName">M_A[22:0]</obj_property>
+      <obj_property name="ObjectShortName">M_A[22:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/M_B">
+      <obj_property name="ElementShortName">M_B[22:0]</obj_property>
+      <obj_property name="ObjectShortName">M_B[22:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/E_A">
+      <obj_property name="ElementShortName">E_A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">E_A[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/E_B">
+      <obj_property name="ElementShortName">E_B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">E_B[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/S_A">
+      <obj_property name="ElementShortName">S_A</obj_property>
+      <obj_property name="ObjectShortName">S_A</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/S_B">
+      <obj_property name="ElementShortName">S_B</obj_property>
+      <obj_property name="ObjectShortName">S_B</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/cntrl">
+      <obj_property name="ElementShortName">cntrl</obj_property>
+      <obj_property name="ObjectShortName">cntrl</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/shift_amt">
+      <obj_property name="ElementShortName">shift_amt[8:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_amt[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/safe_shift_amt">
+      <obj_property name="ElementShortName">safe_shift_amt[8:0]</obj_property>
+      <obj_property name="ObjectShortName">safe_shift_amt[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/M">
+      <obj_property name="ElementShortName">M[22:0]</obj_property>
+      <obj_property name="ObjectShortName">M[22:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/M2">
+      <obj_property name="ElementShortName">M2[22:0]</obj_property>
+      <obj_property name="ObjectShortName">M2[22:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/exp_1">
+      <obj_property name="ElementShortName">exp_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_1[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/M1">
+      <obj_property name="ElementShortName">M1[23:0]</obj_property>
+      <obj_property name="ObjectShortName">M1[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/M_2">
+      <obj_property name="ElementShortName">M_2[23:0]</obj_property>
+      <obj_property name="ObjectShortName">M_2[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/temp_1">
+      <obj_property name="ElementShortName">temp_1[23:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_1[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/temp_2">
+      <obj_property name="ElementShortName">temp_2[23:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_2[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/temp_3">
+      <obj_property name="ElementShortName">temp_3[23:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_3[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/M_1">
+      <obj_property name="ElementShortName">M_1[23:0]</obj_property>
+      <obj_property name="ObjectShortName">M_1[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/raw1">
+      <obj_property name="ElementShortName">raw1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">raw1[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/raw2">
+      <obj_property name="ElementShortName">raw2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">raw2[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/raw3">
+      <obj_property name="ElementShortName">raw3[8:0]</obj_property>
+      <obj_property name="ObjectShortName">raw3[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/left_amt">
+      <obj_property name="ElementShortName">left_amt[8:0]</obj_property>
+      <obj_property name="ObjectShortName">left_amt[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/G_1">
+      <obj_property name="ElementShortName">G_1</obj_property>
+      <obj_property name="ObjectShortName">G_1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/R_1">
+      <obj_property name="ElementShortName">R_1</obj_property>
+      <obj_property name="ObjectShortName">R_1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/S_1">
+      <obj_property name="ElementShortName">S_1</obj_property>
+      <obj_property name="ObjectShortName">S_1</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/shifted_out_full">
+      <obj_property name="ElementShortName">shifted_out_full[23:0]</obj_property>
+      <obj_property name="ObjectShortName">shifted_out_full[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/reconstruct">
+      <obj_property name="ElementShortName">reconstruct[23:0]</obj_property>
+      <obj_property name="ObjectShortName">reconstruct[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/add">
+      <obj_property name="ElementShortName">add</obj_property>
+      <obj_property name="ObjectShortName">add</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/temp_mantissa">
+      <obj_property name="ElementShortName">temp_mantissa[24:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_mantissa[24:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/zer0">
+      <obj_property name="ElementShortName">zer0</obj_property>
+      <obj_property name="ObjectShortName">zer0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/temp1">
+      <obj_property name="ElementShortName">temp1</obj_property>
+      <obj_property name="ObjectShortName">temp1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/temp2">
+      <obj_property name="ElementShortName">temp2</obj_property>
+      <obj_property name="ObjectShortName">temp2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/temp3">
+      <obj_property name="ElementShortName">temp3</obj_property>
+      <obj_property name="ObjectShortName">temp3</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/shift_amt_1">
+      <obj_property name="ElementShortName">shift_amt_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_amt_1[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/sub_shift">
+      <obj_property name="ElementShortName">sub_shift[24:0]</obj_property>
+      <obj_property name="ObjectShortName">sub_shift[24:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/add_shift">
+      <obj_property name="ElementShortName">add_shift[24:0]</obj_property>
+      <obj_property name="ObjectShortName">add_shift[24:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/shifted_mantissa">
+      <obj_property name="ElementShortName">shifted_mantissa[23:0]</obj_property>
+      <obj_property name="ObjectShortName">shifted_mantissa[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/add_exp">
+      <obj_property name="ElementShortName">add_exp[8:0]</obj_property>
+      <obj_property name="ObjectShortName">add_exp[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/sub_exp">
+      <obj_property name="ElementShortName">sub_exp[8:0]</obj_property>
+      <obj_property name="ObjectShortName">sub_exp[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/exp_2">
+      <obj_property name="ElementShortName">exp_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_2[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/L">
+      <obj_property name="ElementShortName">L</obj_property>
+      <obj_property name="ObjectShortName">L</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/G">
+      <obj_property name="ElementShortName">G</obj_property>
+      <obj_property name="ObjectShortName">G</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/R">
+      <obj_property name="ElementShortName">R</obj_property>
+      <obj_property name="ObjectShortName">R</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/S">
+      <obj_property name="ElementShortName">S</obj_property>
+      <obj_property name="ObjectShortName">S</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/round_add">
+      <obj_property name="ElementShortName">round_add</obj_property>
+      <obj_property name="ObjectShortName">round_add</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/round_sub">
+      <obj_property name="ElementShortName">round_sub</obj_property>
+      <obj_property name="ObjectShortName">round_sub</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/rounded_mantissa_cout">
+      <obj_property name="ElementShortName">rounded_mantissa_cout[24:0]</obj_property>
+      <obj_property name="ObjectShortName">rounded_mantissa_cout[24:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/rounded_mantissa">
+      <obj_property name="ElementShortName">rounded_mantissa[23:0]</obj_property>
+      <obj_property name="ObjectShortName">rounded_mantissa[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/cout">
+      <obj_property name="ElementShortName">cout</obj_property>
+      <obj_property name="ObjectShortName">cout</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/exp_rnorm">
+      <obj_property name="ElementShortName">exp_rnorm[8:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_rnorm[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/exp_3">
+      <obj_property name="ElementShortName">exp_3[8:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_3[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/exp_overflow">
+      <obj_property name="ElementShortName">exp_overflow</obj_property>
+      <obj_property name="ObjectShortName">exp_overflow</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/is_inf_A">
+      <obj_property name="ElementShortName">is_inf_A</obj_property>
+      <obj_property name="ObjectShortName">is_inf_A</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/is_inf_B">
+      <obj_property name="ElementShortName">is_inf_B</obj_property>
+      <obj_property name="ObjectShortName">is_inf_B</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/is_NaN">
+      <obj_property name="ElementShortName">is_NaN</obj_property>
+      <obj_property name="ObjectShortName">is_NaN</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/is_inf">
+      <obj_property name="ElementShortName">is_inf</obj_property>
+      <obj_property name="ObjectShortName">is_inf</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/mantissa_out_no_cout">
+      <obj_property name="ElementShortName">mantissa_out_no_cout[22:0]</obj_property>
+      <obj_property name="ObjectShortName">mantissa_out_no_cout[22:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/mantissa_out_with_cout">
+      <obj_property name="ElementShortName">mantissa_out_with_cout[22:0]</obj_property>
+      <obj_property name="ObjectShortName">mantissa_out_with_cout[22:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/out_1">
+      <obj_property name="ElementShortName">out_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/out_2">
+      <obj_property name="ElementShortName">out_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/out_3">
+      <obj_property name="ElementShortName">out_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_3[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/BUS_WIDTH">
+      <obj_property name="ElementShortName">BUS_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BUS_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/MANTISSA_SIZE">
+      <obj_property name="ElementShortName">MANTISSA_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MANTISSA_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/EXPONENT_SIZE">
+      <obj_property name="ElementShortName">EXPONENT_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXPONENT_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/BIAS">
+      <obj_property name="ElementShortName">BIAS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BIAS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/LEADING_ONE">
+      <obj_property name="ElementShortName">LEADING_ONE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LEADING_ONE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/PRODUCT_PAD">
+      <obj_property name="ElementShortName">PRODUCT_PAD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PRODUCT_PAD[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/ROUND_UP">
+      <obj_property name="ElementShortName">ROUND_UP[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ROUND_UP[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/PAD_ZERO">
+      <obj_property name="ElementShortName">PAD_ZERO</obj_property>
+      <obj_property name="ObjectShortName">PAD_ZERO</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/ROUND_DOWN">
+      <obj_property name="ElementShortName">ROUND_DOWN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ROUND_DOWN[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/MANTISSA_PAD">
+      <obj_property name="ElementShortName">MANTISSA_PAD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MANTISSA_PAD[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/MANTISSA_SHIFT">
+      <obj_property name="ElementShortName">MANTISSA_SHIFT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MANTISSA_SHIFT[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/EXPONENT_INC">
+      <obj_property name="ElementShortName">EXPONENT_INC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXPONENT_INC[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/EXPONENT_NO_CHANGE">
+      <obj_property name="ElementShortName">EXPONENT_NO_CHANGE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXPONENT_NO_CHANGE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/PAD_2">
+      <obj_property name="ElementShortName">PAD_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PAD_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/SHIFT_MAX_BITS">
+      <obj_property name="ElementShortName">SHIFT_MAX_BITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SHIFT_MAX_BITS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/IS_INFINITY">
+      <obj_property name="ElementShortName">IS_INFINITY[10:0]</obj_property>
+      <obj_property name="ObjectShortName">IS_INFINITY[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/NAN">
+      <obj_property name="ElementShortName">NAN[63:0]</obj_property>
+      <obj_property name="ObjectShortName">NAN[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/INFINITY_P">
+      <obj_property name="ElementShortName">INFINITY_P[63:0]</obj_property>
+      <obj_property name="ObjectShortName">INFINITY_P[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/INFINITY_N">
+      <obj_property name="ElementShortName">INFINITY_N[63:0]</obj_property>
+      <obj_property name="ObjectShortName">INFINITY_N[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/ZERO">
+      <obj_property name="ElementShortName">ZERO[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ZERO[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/ex_stage_instance/fpu_instance/fp_subtraction_s/FP_subtraction/MAX_SHIFT">
+      <obj_property name="ElementShortName">MAX_SHIFT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX_SHIFT[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[63]">
+      <obj_property name="ElementShortName">[63][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[63][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[62]">
+      <obj_property name="ElementShortName">[62][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[62][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[61]">
+      <obj_property name="ElementShortName">[61][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[61][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[60]">
+      <obj_property name="ElementShortName">[60][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[60][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[59]">
+      <obj_property name="ElementShortName">[59][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[59][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[58]">
+      <obj_property name="ElementShortName">[58][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[58][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[57]">
+      <obj_property name="ElementShortName">[57][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[57][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[56]">
+      <obj_property name="ElementShortName">[56][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[56][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[55]">
+      <obj_property name="ElementShortName">[55][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[55][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[54]">
+      <obj_property name="ElementShortName">[54][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[54][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[53]">
+      <obj_property name="ElementShortName">[53][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[53][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[52]">
+      <obj_property name="ElementShortName">[52][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[52][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[51]">
+      <obj_property name="ElementShortName">[51][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[51][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[50]">
+      <obj_property name="ElementShortName">[50][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[50][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[49]">
+      <obj_property name="ElementShortName">[49][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[49][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[48]">
+      <obj_property name="ElementShortName">[48][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[48][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[47]">
+      <obj_property name="ElementShortName">[47][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[47][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[46]">
+      <obj_property name="ElementShortName">[46][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[46][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[45]">
+      <obj_property name="ElementShortName">[45][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[45][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[44]">
+      <obj_property name="ElementShortName">[44][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[44][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[43]">
+      <obj_property name="ElementShortName">[43][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[43][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[42]">
+      <obj_property name="ElementShortName">[42][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[42][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[41]">
+      <obj_property name="ElementShortName">[41][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[41][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[40]">
+      <obj_property name="ElementShortName">[40][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[40][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[39]">
+      <obj_property name="ElementShortName">[39][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[39][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[38]">
+      <obj_property name="ElementShortName">[38][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[38][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[37]">
+      <obj_property name="ElementShortName">[37][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[37][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[36]">
+      <obj_property name="ElementShortName">[36][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[36][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[35]">
+      <obj_property name="ElementShortName">[35][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[35][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[34]">
+      <obj_property name="ElementShortName">[34][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[34][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[33]">
+      <obj_property name="ElementShortName">[33][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[33][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/id_stage_instance/regfile_instance/reg_array[32]">
+      <obj_property name="ElementShortName">[32][63:0]</obj_property>
+      <obj_property name="ObjectShortName">[32][63:0]</obj_property>
+   </wvobject>
+</wave_config>

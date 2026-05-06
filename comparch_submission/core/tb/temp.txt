@@ -1,0 +1,7 @@
+BUS_WIDTH = 64:
+fadd.d no issue
+fadd.s no issue
+
+BUS_Width = 32:
+fadd.d then PADD or forcible make parameter 32
+fadd.s no issue
